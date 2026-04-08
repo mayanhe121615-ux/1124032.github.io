@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>神話時光機｜女媧與人類的誕生</title>
     <style>
-        /* 全域設定：選用具有古風感的字體與背景 */
+        /* 全域設定 */
         body {
             font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
-            background-color: #f4efea; /* 淺米色背景，模擬宣紙感 */
+            background-color: #f4efea; 
             color: #3e3a39;
             margin: 0;
             padding: 0;
             line-height: 2;
         }
 
-        /* 封面容器：滿版寬度與柔和陰影 */
+        /* 封面容器 */
         .cover-container {
             width: 100%;
             background: #fff;
@@ -28,14 +28,15 @@
             width: 100%;
             max-width: 1000px;
             height: auto;
-            border-radius: 0 0 15px 15px; /* 下方圓角 */
-            transition: transform 0.3s ease;
+            border-radius: 0 0 15px 15px;
+            display: block;
+            margin: 0 auto;
         }
 
-        /* 文章主體：窄版設計提升閱讀專注力 */
+        /* 文章主體 */
         .content-wrapper {
             max-width: 800px;
-            margin: -50px auto 50px; /* 往上提一點，與封面產生疊層感 */
+            margin: -50px auto 50px;
             background: #ffffff;
             padding: 60px 80px;
             border-radius: 8px;
@@ -44,7 +45,6 @@
             z-index: 10;
         }
 
-        /* 標題設計：增加古風層次感 */
         h2 {
             font-size: 1.8em;
             color: #8b4513;
@@ -63,17 +63,16 @@
             margin: 10px auto;
         }
 
-        /* 段落與首字下沉 */
         p {
             margin-bottom: 30px;
             text-align: justify;
             letter-spacing: 0.5px;
         }
 
-        /* 內文插圖：優雅的展示方式 */
+        /* 內文插圖 */
         .figure-box {
             text-align: center;
-            margin: 40px -40px; /* 稍微超出內容邊界，增加視覺張力 */
+            margin: 40px -40px;
         }
 
         .in-article-img {
@@ -91,7 +90,7 @@
             font-style: italic;
         }
 
-        /* 重點強調框：使用柔和的漸層 */
+        /* 重點強調框 */
         .highlight-box {
             background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
             padding: 30px;
@@ -99,7 +98,6 @@
             margin: 40px 0;
             font-size: 1.1em;
             color: #5d5d5d;
-            line-height: 1.8;
             border-radius: 0 8px 8px 0;
         }
 
@@ -112,7 +110,7 @@
             font-size: 0.9em;
         }
 
-        /* 響應式優化：手機瀏覽 */
+        /* 手機版優化 */
         @media (max-width: 600px) {
             .content-wrapper {
                 padding: 30px 20px;
@@ -128,7 +126,8 @@
 <body>
 
 <div class="cover-container">
-    <img src="image_1.png" alt="封面" class="blog-cover">
+    <!-- 修正為你的實際檔名：封面.jpg -->
+    <img src="封面.jpg" alt="上古神話：女媧——人類的始祖" class="blog-cover">
 </div>
 
 <div class="content-wrapper">
@@ -143,7 +142,8 @@
         <p>女神女媧在山水間遊歷，雖然景色瑰麗，卻因為少了生靈的氣息而感到寂寞。她坐在池塘邊，看著水中倒映的影子，心中燃起了創造的渴望。</p>
         
         <div class="figure-box">
-            <img src="image_2.png" alt="女媧造人" class="in-article-img">
+            <!-- 修正為你的實際檔名：圖片2.png -->
+            <img src="圖片2.png" alt="女媧造人" class="in-article-img">
             <p class="img-caption">圖說：女媧依照自己的形貌，在池畔捏製出最初的人類</p>
         </div>
 
