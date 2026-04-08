@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神話時光機｜女媧與人類的誕生</title>
+    <style>
+        /* 全域設定：選用具有古風感的字體與背景 */
+        body {
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            background-color: #f4efea; /* 淺米色背景，模擬宣紙感 */
+            color: #3e3a39;
+            margin: 0;
+            padding: 0;
+            line-height: 2;
+        }
+
+        /* 封面容器：滿版寬度與柔和陰影 */
+        .cover-container {
+            width: 100%;
+            background: #fff;
+            padding-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .blog-cover {
+            width: 100%;
+            max-width: 1000px;
+            height: auto;
+            border-radius: 0 0 15px 15px; /* 下方圓角 */
+            transition: transform 0.3s ease;
+        }
+
+        /* 文章主體：窄版設計提升閱讀專注力 */
+        .content-wrapper {
+            max-width: 800px;
+            margin: -50px auto 50px; /* 往上提一點，與封面產生疊層感 */
+            background: #ffffff;
+            padding: 60px 80px;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+            position: relative;
+            z-index: 10;
+        }
+
+        /* 標題設計：增加古風層次感 */
+        h2 {
+            font-size: 1.8em;
+            color: #8b4513;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        h2::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #d4a373;
+            margin: 10px auto;
+        }
+
+        /* 段落與首字下沉 */
+        p {
+            margin-bottom: 30px;
+            text-align: justify;
+            letter-spacing: 0.5px;
+        }
+
+        /* 內文插圖：優雅的展示方式 */
+        .figure-box {
+            text-align: center;
+            margin: 40px -40px; /* 稍微超出內容邊界，增加視覺張力 */
+        }
+
+        .in-article-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border: 1px solid #eee;
+        }
+
+        .img-caption {
+            font-size: 0.9em;
+            color: #999;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* 重點強調框：使用柔和的漸層 */
+        .highlight-box {
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            padding: 30px;
+            border-left: 4px solid #8b4513;
+            margin: 40px 0;
+            font-size: 1.1em;
+            color: #5d5d5d;
+            line-height: 1.8;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* 頁尾 */
+        footer {
+            text-align: center;
+            padding: 60px 0;
+            background-color: #3e3a39;
+            color: #c9c9c9;
+            font-size: 0.9em;
+        }
+
+        /* 響應式優化：手機瀏覽 */
+        @media (max-width: 600px) {
+            .content-wrapper {
+                padding: 30px 20px;
+                margin: 0 auto;
+                border-radius: 0;
+            }
+            .figure-box {
+                margin: 30px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cover-container">
+    <img src="image_1.png" alt="封面" class="blog-cover">
+</div>
+
+<div class="content-wrapper">
+    <section>
+        <h2>天地初開：盤古的遺產</h2>
+        <p>世界最初如同一顆大雞蛋，混沌不分。盤古在寂靜中醒來，用一柄大斧劈開了永恆的黑暗。輕清者上升為天，重濁者下沉為地。盤古頂天立地一萬八千年，直到生命耗盡的那一刻，他將自己的身軀化作了我們如今看見的萬物。</p>
+        <p>他的呼氣成了風雲，雙眼化作日月，四肢五體則變成了大地名山。甚至連最微小的汗毛，也化作了點綴大地的花草樹木。</p>
+    </section>
+
+    <section>
+        <h2>摶土造人：人類的起源</h2>
+        <p>女神女媧在山水間遊歷，雖然景色瑰麗，卻因為少了生靈的氣息而感到寂寞。她坐在池塘邊，看著水中倒映的影子，心中燃起了創造的渴望。</p>
+        
+        <div class="figure-box">
+            <img src="image_2.png" alt="女媧造人" class="in-article-img">
+            <p class="img-caption">圖說：女媧依照自己的形貌，在池畔捏製出最初的人類</p>
+        </div>
+
+        <p>她用黃泥捏出了精緻的泥人，當泥人踏上土地的一瞬，奇蹟發生了——他們獲得了生命，歡快地跳動起來。為了讓人類佈滿大地，女媧更以藤條揮灑泥漿，讓無數小人如星火般散佈在原野之上。</p>
+        
+        <div class="highlight-box">
+            「據說，手捏的泥人成了貴人，而甩出的泥點則成了普通人。」這雖然是古人的階級想像，但也展現了女媧造人過程中的辛勞與創意。
+        </div>
+    </section>
+
+    <section>
+        <h2>不周山倒與女媧補天</h2>
+        <p>然而和平並非永久，水火二神的爭鬥震碎了天空。支撐天地的「不周山」應聲斷裂，半邊天塌陷，黑火與洪流席捲大地。人類陷入了前所未有的地獄災難。</p>
+        <p>女媧不忍看子孫受苦，她燒煉五彩石填補天窟，斬下老龜四足重立天柱。她不僅修復了自然，更重新燃起了人類對生活的希望與歌聲。</p>
+    </section>
+
+    <section>
+        <h2>永恆的守護</h2>
+        <p>當一切歸於平靜，女媧悄然離開了人間。但傳說中，她的意志化作了十位神人，守護在廣闊的原野上，生生世世守護著她親手創造的這群子民。</p>
+    </section>
+</div>
+
+<footer>
+    <p>—— 撰於 2026年 ‧ 探索上古神話之美 ——</p>
+    <p>&copy; 2026 神話時光機 Project. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
